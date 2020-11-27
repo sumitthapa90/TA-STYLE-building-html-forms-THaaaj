@@ -1,0 +1,383 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* my css */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.4;
+}
+
+.flex-dlp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-flex {
+  width: 100px;
+}
+h1 {
+  font-size: 30px;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: black;
+  padding-right: 40px;
+}
+.header {
+  background-color: white;
+}
+.header-container {
+  width: 65%;
+  margin: 0 auto;
+}
+body {
+  background-color: #e6e6e6;
+}
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+.section-1 {
+  height: 75vh;
+  background-image: linear-gradient(to right, #0c0b0b70, #0c0a0a69),
+    url(../banner.jpg);
+}
+h2 {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+}
+.hero {
+  text-align: center;
+  padding-top: 50px;
+}
+.hero-box {
+  background-color: white;
+  width: 60%;
+  position: absolute;
+  left: 20%;
+  padding: 28px 18px;
+}
+.hero-box-mr{
+  margin-left:5px ;
+}
+.hero-box h3 {
+  color: black;
+}
+.hero-box-second{
+  padding-top: 30px;
+}
+.check-btn{
+  margin-top: 18px;
+}
+.icon-1 {
+  font-size: 40px;
+  color: #69c6ba;
+}
+h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+.sub-menu {
+  text-align: center;
+  padding: 20px;
+}
+.btn {
+  color: white;
+  background-color: #69c6ba;
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+}
+h4 {
+  margin-bottom: 20px;
+}
+.bold-letter {
+  font-weight: 600;
+}
+.image-1 img {
+  width: 50%;
+}
+.white-bg {
+  background-color: white;
+  width: 50%;
+  position: relative;
+}
+.img-div {
+  width: 50%;
+  position: relative;
+}
+.img-div img {
+  width: 100%;
+}
+.sub-parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.continental-details {
+  background-color: #69c6ba;
+  position: absolute;
+  left: -20px;
+  top: 100px;
+  width: 400px;
+  padding: 20px;
+}
+h5 {
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 25px;
+}
+.arrow-icons {
+  display: flex;
+  /* width: 100px; */
+  position: absolute;
+  top: 170px;
+  right: 20px;
+  font-size: 30px;
+  color: #79726a;
+}
+.white-bg {
+  background-color: white;
+  width: 50%;
+}
+.contant-left {
+  left: 25% !important;
+  z-index: 1;
+  background-color: palevioletred;
+}
+.arrow-icons-2 {
+  position: absolute;
+  bottom: 130px;
+  left: 20px;
+  font-size: 30px;
+  display: flex;
+  color: #79726a;
+}
+.btn-2 {
+  padding: 10px;
+  background-color: white;
+  color: #69c6ba;
+}
+.map-1 {
+  position: relative;
+}
+.maps {
+  background-color: #69c6ba;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+}
+.maps img {
+  background-color: #69c6ba;
+}
+.map:hover {
+  background-color: palevioletred;
+}
+.section-4 {
+  background-color: white;
+}
+.list-hotels {
+  width: 70%;
+  padding-left: 20px;
+}
+h6 {
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+.sing {
+  padding-bottom: 10px;
+  color: red;
+  font-size: 10px;
+}
+.small-container {
+  width: 80%;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+.flex {
+  display: flex;
+}
+
+.curve {
+  width: 30%;
+  background-color: #69c6ba;
+  display: flex;
+  align-items: center;
+}
+.curve .text{
+  padding-left: 12px;
+  color: #ffffff;
+}
+.btn-3 {
+  text-align: center;
+}
+p {
+  font-size: 12px;
+}
+.form-block {
+  background-color: white;
+  width: 450px;
+  padding: 20px;
+  padding-right: 50px;
+  position: absolute;
+  top: 70px;
+  left: 500px;
+  text-align: center;
+}
+.input-1 {
+  width: 375px;
+  margin-top: 20px;
+}
+button{
+  padding: 10px;
+  padding-left: 125px;
+  padding-right: 100px;
+  border: none;
+  background-color: #69c6ba;
+  color: white;
+}
+.footer{
+  text-align: center;
+  background-color: #69c6ba;
+  padding: 20px;
+  color: white;
+
+}
+
